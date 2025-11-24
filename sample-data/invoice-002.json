@@ -1,0 +1,40 @@
+{
+  "invoiceId": "INV-B2C3D4E5-2345-6789-ABCD-EF0123456789",
+  "invoiceNumber": "2024-0002",
+  "customerName": "GreenTech Solutions AG",
+  "customerEmail": "accounts@greentech-solutions.ch",
+  "customerAddress": {
+    "street": "Bahnhofstrasse 100",
+    "city": "Zürich",
+    "postalCode": "8001",
+    "country": "Switzerland"
+  },
+  "invoiceDate": "2024-02-01",
+  "dueDate": "2024-03-03",
+  "items": [
+    {
+      "description": "Energy management system - Commercial",
+      "quantity": 1,
+      "unitPrice": 15000.0,
+      "total": 15000.0
+    },
+    {
+      "description": "Smart meter installation",
+      "quantity": 8,
+      "unitPrice": 450.0,
+      "total": 3600.0
+    },
+    {
+      "description": "Configuration and training",
+      "quantity": 8,
+      "unitPrice": 120.0,
+      "total": 960.0
+    }
+  ],
+  "subtotal": 19560.0,
+  "tax": 3716.4,
+  "total": 23276.4,
+  "currency": "EUR",
+  "status": "sent",
+  "notes": "Net 30 payment terms. Contact: Johann Schmidt."
+}

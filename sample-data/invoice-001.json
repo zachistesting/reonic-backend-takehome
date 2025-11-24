@@ -1,0 +1,40 @@
+{
+  "invoiceId": "INV-A1B2C3D4-1234-5678-9ABC-DEF012345678",
+  "invoiceNumber": "2024-0001",
+  "customerName": "Solar Energy GmbH",
+  "customerEmail": "billing@solar-energy.de",
+  "customerAddress": {
+    "street": "Sonnenstraße 42",
+    "city": "München",
+    "postalCode": "80331",
+    "country": "Germany"
+  },
+  "invoiceDate": "2024-01-15",
+  "dueDate": "2024-02-14",
+  "items": [
+    {
+      "description": "Solar panel installation - Residential",
+      "quantity": 1,
+      "unitPrice": 8500.0,
+      "total": 8500.0
+    },
+    {
+      "description": "Inverter system",
+      "quantity": 1,
+      "unitPrice": 2200.0,
+      "total": 2200.0
+    },
+    {
+      "description": "Installation and wiring",
+      "quantity": 16,
+      "unitPrice": 85.0,
+      "total": 1360.0
+    }
+  ],
+  "subtotal": 12060.0,
+  "tax": 2291.4,
+  "total": 14351.4,
+  "currency": "EUR",
+  "status": "paid",
+  "notes": "Payment received via bank transfer. Project completed on schedule."
+}

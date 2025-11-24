@@ -1,0 +1,57 @@
+{
+  "name": "reonic-invoice-service",
+  "version": "1.0.0",
+  "description": "Reonic Backend Take-Home: Invoice Storage and Retrieval Service",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:setup": "tsx src/setup.ts",
+    "db:push": "drizzle-kit push",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "docker:up:dev": "docker compose up postgres -d",
+    "docker:down": "docker compose down -v",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "generate:schema-types": "tsx scripts/generate-schema-types.ts"
+  },
+  "keywords": [
+    "invoice",
+    "api",
+    "postgresql"
+  ],
+  "author": "Zach Rachedi <zotch7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.6",
+    "@testcontainers/postgresql": "^11.8.1",
+    "@types/node": "^24.10.1",
+    "@types/pg": "^8.15.6",
+    "drizzle-kit": "^0.31.7",
+    "json-schema-to-typescript": "^15.0.4",
+    "pg-mem": "^3.0.5",
+    "testcontainers": "^11.8.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.10"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "@fastify/env": "^5.0.3",
+    "@fastify/helmet": "^13.0.2",
+    "@fastify/rate-limit": "^10.3.0",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "fastify": "^5.6.2",
+    "pg": "^8.16.3",
+    "pino": "^10.1.0",
+    "pino-pretty": "^13.1.2"
+  }
+}

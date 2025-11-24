@@ -1,0 +1,12 @@
+node_modules
+dist
+npm-debug.log
+.env
+.env.local
+.git
+.gitignore
+.vscode
+.idea
+*.md
+!README.md
+Reonic_BE_takehome.pdf

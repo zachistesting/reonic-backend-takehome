@@ -1,0 +1,34 @@
+{
+  "invoiceId": "INV-E5F6A7B8-5678-9ABC-DEF0-123456789012",
+  "invoiceNumber": "2024-0005",
+  "customerName": "Solar Energy GmbH",
+  "customerEmail": "billing@solar-energy.de",
+  "customerAddress": {
+    "street": "Sonnenstraße 42",
+    "city": "München",
+    "postalCode": "80331",
+    "country": "Germany"
+  },
+  "invoiceDate": "2024-03-20",
+  "dueDate": "2024-04-19",
+  "items": [
+    {
+      "description": "Maintenance service - Annual",
+      "quantity": 1,
+      "unitPrice": 850.0,
+      "total": 850.0
+    },
+    {
+      "description": "System inspection",
+      "quantity": 1,
+      "unitPrice": 350.0,
+      "total": 350.0
+    }
+  ],
+  "subtotal": 1200.0,
+  "tax": 228.0,
+  "total": 1428.0,
+  "currency": "EUR",
+  "status": "sent",
+  "notes": "Annual maintenance for installation completed in January 2024."
+}
